@@ -36,7 +36,7 @@ public class StackUsingQueue {
             q1.remove();
         }
 
-        public E top() {
+        public E peek() {
             if (q1.size() == 0) {
                 System.out.println("No element present");
                 return null;
@@ -47,15 +47,15 @@ public class StackUsingQueue {
 
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>(3);
-        System.out.println(stack.top());
+        System.out.println(stack.peek());
         stack.pop();
         stack.push(1);
         stack.push(2);
         stack.push(3);
         stack.push(4);
-        System.out.println(stack.top());
+        System.out.println(stack.peek());
         stack.pop();
         stack.push(4);
-        System.out.println(stack.top());
+        System.out.println(stack.peek());
     }
 }

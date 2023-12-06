@@ -19,9 +19,9 @@ public class Stack {
         stack.push(4);
         stack.push(5);
         stack.push(6);
-        System.out.println(stack.top());
+        System.out.println(stack.peek());
         stack.pop();
-        System.out.println(stack.top());
+        System.out.println(stack.peek());
         stack.display();
     }
 
@@ -38,7 +38,7 @@ public class Stack {
         array[index--] = 0;
     }
 
-    private int top() {
+    private int peek() {
         return array[index];
     }
 
