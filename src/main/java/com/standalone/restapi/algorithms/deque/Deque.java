@@ -1,4 +1,4 @@
-package com.standalone.restapi.algorithms.queue;
+package com.standalone.restapi.algorithms.deque;
 
 class Deque {
 
