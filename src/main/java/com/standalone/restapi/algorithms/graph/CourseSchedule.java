@@ -1,4 +1,4 @@
-package com.design.Graphs;
+package com.standalone.restapi.algorithms.graph;
 
 import java.util.*;
 
